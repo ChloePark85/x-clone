@@ -22,7 +22,7 @@ export default function Main() {
         </div>
         <div className={styles.body}>
           <span className={styles.signup}>이미 트위터에 가입하셨나요?</span>
-          <Link href="i/flow/login" className={styles.loginbutton}>
+          <Link href="/login" className={styles.loginbutton}>
             로그인
           </Link>
         </div>
