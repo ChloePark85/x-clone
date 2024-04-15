@@ -16,7 +16,7 @@ export default function Main() {
           <button className={style.button}>Google 계정으로 가입하기</button>
           <button className={style.button}>Apple에서 가입하기</button>
           <span className={style.or}>또는</span>
-          <Link href="i/flow/signup" className={style.signupbutton}>
+          <Link href="/i/flow/signup" className={style.signupbutton}>
             계정 만들기
           </Link>
         </div>
