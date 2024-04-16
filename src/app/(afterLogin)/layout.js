@@ -6,7 +6,7 @@ import NavMenu from "./_component/NavMenu";
 import LogoutButton from "./_component/LogoutButton";
 import FollowRecommend from "./_component/FollowRecommend";
 
-export default function AfterLoginLayout({ children }) {
+export default function AfterLoginLayout({ children, modal }) {
   return (
     <div className={style.container}>
       <header className={style.leftSectionWrapper}>
@@ -53,6 +53,7 @@ export default function AfterLoginLayout({ children }) {
           </section>
         </div>
       </div>
+      {modal}
     </div>
   );
 }
