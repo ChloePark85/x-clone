@@ -5,6 +5,7 @@ import xlogo from "/public/xlogo.jpg";
 import NavMenu from "./_component/NavMenu";
 import LogoutButton from "./_component/LogoutButton";
 import FollowRecommend from "./_component/FollowRecommend";
+import TrendSection from "./_component/TrendSection";
 
 export default function AfterLoginLayout({ children, modal }) {
   return (
@@ -43,7 +44,7 @@ export default function AfterLoginLayout({ children, modal }) {
                 <input type="search" />
               </form>
             </div>
-            {/* <TrendSection /> */}
+            <TrendSection />
             <div className={style.followRecommend}>
               <h3>팔로우 추천</h3>
               <FollowRecommend />

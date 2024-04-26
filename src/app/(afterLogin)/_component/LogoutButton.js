@@ -1,5 +1,7 @@
 "use client";
 
+"use client";
+
 import style from "./logoutButton.module.css";
 
 export default function LogoutButton() {
@@ -7,7 +9,7 @@ export default function LogoutButton() {
     // 임시로 내 정보 있는것처럼
     id: "zerohch0",
     nickname: "제로초",
-    image: "/5Udwvqim.jpg",
+    image: "/xlogo.jpg",
   };
 
   const onLogout = () => {};

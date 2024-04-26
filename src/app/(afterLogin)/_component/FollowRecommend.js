@@ -7,7 +7,7 @@ export default function FollowRecommend() {
   const user = {
     id: "elonmusk",
     nickname: "Elon Musk",
-    image: "/yRsRRjGO.jpg",
+    image: "/xlogo.jpg",
   };
 
   return (
