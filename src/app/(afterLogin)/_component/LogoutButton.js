@@ -1,7 +1,5 @@
 "use client";
 
-"use client";
-
 import style from "./logoutButton.module.css";
 
 export default function LogoutButton() {
