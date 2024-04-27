@@ -18,7 +18,15 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@mswjs/http-middleware": "^0.10.1",
+    "cors": "^2.8.5",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "express": "^4.19.2"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
